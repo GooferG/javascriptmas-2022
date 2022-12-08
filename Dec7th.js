@@ -9,7 +9,9 @@ Example output: "I'M So hApPy iT'S MoNdAy"
 function altCaps(str) {
   return str
     .split('')
-    .map((l, i) => (i % 2 === 0 ? l.toUpperCase() : l.toLowerCase()))
+    .map((letter, i) =>
+      i % 2 === 0 ? letter.toUpperCase() : letter.toLowerCase()
+    )
     .join('');
 }
 
