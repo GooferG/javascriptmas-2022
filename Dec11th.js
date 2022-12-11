@@ -23,8 +23,11 @@ Example input: !htrae ot emocleW
 Example output: Welcome to earth!
 */
 
+// function reverseString(arr) {
+//   return String(arr.split().map((word) => word.split('').reverse().join(''));
+// }
 function reverseString(arr) {
-  return arr;
+  return arr.split('').reverse().join('');
 }
 
 /*
@@ -36,7 +39,7 @@ reverse the strings manually.
 */
 
 function reverseStringsInArray(arr) {
-  return arr;
+  return arr.map((words) => reverseString(words));
 }
 
 console.log(reverseString(title));
