@@ -12,13 +12,13 @@ For example, typing :smile: will replace that text with 😊
 */
 
 const emojis = {
-	"smile": "😊",
-	"angry": "😠",
-	"party": "🎉",
-	"heart": "💜",
-	"cat":   "🐱",
-	"dog":   "🐕"
-}
+  smile: '😊',
+  angry: '😠',
+  party: '🎉',
+  heart: '💜',
+  cat: '🐱',
+  dog: '🐕',
+};
 
 /* 1. Write a function that checks if a lowercase word starts and 
 ends with a colon. If it does, remove the colons and
@@ -34,10 +34,10 @@ Example output: "flower"
 
 Example input: "elephant"
 Example output: "elephant"
-*/ 
+*/
 
-function emojifyWord(word){
-	return;
+function emojifyWord(word) {
+  return;
 }
 
 /* 2. Write a function to find any emoji shortcodes in a phrase.
@@ -50,13 +50,11 @@ Example output: "I 💜 my 🐱"
 
 Example input: "I :heart: my elephant"
 Example output: "I 💜 my elephant"
-*/ 
+*/
 
-function emojifyPhrase(phrase){
-	return;
+function emojifyPhrase(phrase) {
+  return;
 }
-
-
 
 // console.log(emojifyWord(":heart:"));
 // console.log(emojifyWord(":flower:"));
@@ -64,3 +62,5 @@ function emojifyPhrase(phrase){
 
 // console.log(emojifyPhrase("I :heart: my :cat:"));
 // console.log(emojifyPhrase("I :heart: my :elephant:"));
+
+// testing
