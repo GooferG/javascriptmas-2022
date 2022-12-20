@@ -21,8 +21,7 @@ Expected output:
 */
 
 function getFreePodcasts(data) {
-  let filterPods = data.map((podcasts) => podcasts);
-  let freePods = filterPods.filter((podcast) => podcast.paid === false);
+  let freePods = data.filter((podcast) => podcast.paid === false);
   let podcastList = freePods.map((podcast) => {
     return { title: podcast.title, rating: podcast.rating, paid: podcast.paid };
   });
