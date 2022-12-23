@@ -1,32 +1,46 @@
 export default [
   {
-    item: '🍭',
+    product: '🍭',
     price: 2.99,
-    type: 'sweet',
   },
   {
-    item: '🍫',
-    price: 1.99,
-    type: 'sweet',
+    product: '🍫',
+    price: 0.99,
   },
   {
-    item: '🥫',
-    price: 1.99,
-    type: 'savory',
+    product: '🏡',
+    price: 40000000,
   },
   {
-    item: '🍬',
+    product: '🧁',
+    price: 0.99,
+  },
+  {
+    product: '📚',
+    price: 0.99,
+  },
+  {
+    product: '⏰',
+    price: 13.99,
+  },
+  {
+    product: '🍬',
     price: 0.89,
-    type: 'sweet',
   },
   {
-    item: '🥦',
+    product: '🥎',
     price: 3.99,
-    type: 'savory',
   },
   {
-    item: '🍖',
-    price: 3.99,
-    type: 'savory',
+    product: '🎸',
+    price: 13.99,
+  },
+  {
+    product: '🎨',
+    price: 23.99,
+  },
+  {
+    product: '💕',
+    price: 0,
   },
 ];
